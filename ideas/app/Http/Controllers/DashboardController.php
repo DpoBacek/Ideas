@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Comment;
 use App\Models\Ideas;
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller

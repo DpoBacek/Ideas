@@ -25,7 +25,6 @@
                 <a class="nav-link" href="#">
                     <span>Settings</span></a>
             </li>
-            </li>
             <li class="nav-item">
                 <a class=" {{ (Route::is('snake.dashboard'))? 'text-white bg-primary rounded' : ''}} nav-link" href="{{route('snake.dashboard')}}"">
                     <span>Snake</span></a>
